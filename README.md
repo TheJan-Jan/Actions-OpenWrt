@@ -1,1 +1,7 @@
-# Actions-OpenWrt
+# 云编译OpenWRT
+
+## 自用版本说明：
+1.支持ipv6.
+2.DDNS可以动态绑定域名；
+3.docker容器，尝试部署docker镜像。
+4.本固件只有200m
