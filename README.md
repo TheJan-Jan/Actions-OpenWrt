@@ -7,7 +7,8 @@
 ### 4.本固件容量只有200兆。
 
 ## N1 OpenWrt如何使用
-### `iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE`
+### 默认自定义防火墙:
+`iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE`
 ### 用户名和密码
 #### * User: root
 #### * Password: password
