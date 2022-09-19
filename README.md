@@ -12,7 +12,7 @@
 ### 用户名和密码
 #### * User: root
 #### * Password: password
-#### * Default IP: 192.168.0.10
+#### * IP: 192.168.0.10
 ### N1 U盘写入刷emmc
 ```
 cd      /root
