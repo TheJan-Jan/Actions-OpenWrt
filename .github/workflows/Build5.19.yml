@@ -10,7 +10,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/coolsnowwolf/lede/tree/20221001
   REPO_BRANCH: master
   FEEDS_CONF: x86/feeds.conf.default
   CONFIG_FILE: x86/5.19.config
