@@ -15,5 +15,3 @@ sed -i 's/192.168.1.1/192.168.0.10/g' package/base-files/files/bin/config_genera
 
 echo '修改时区'
 sed -i "s/'UTC'/'CST-8'\n   set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
-
-sed -i "s/KERNEL_TESTING_PATCHVER:=*.*/KERNEL_TESTING_PATCHVER:=5.19/g" target/linux/x86/Makefile
