@@ -1,4 +1,8 @@
+name: Build-openwrt-x86
 
+on:
+  repository_dispatch:
+  workflow_dispatch:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
