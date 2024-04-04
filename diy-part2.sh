@@ -2,8 +2,7 @@
 cd openwrt
 
 # Add luci-theme-opentomcat
-git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git theme-temp/luci-theme-opentomcat
-rm -rf theme-temp/luci-theme-opentomcat/LICENSE
+git clone git@github.com:TheJan-Jan/luci-theme-argon.git theme-temp/luci-theme-opentomcat
 rm -rf theme-temp/luci-theme-opentomcat/README.md
 mv -f theme-temp/luci-theme-opentomcat package/lean/
 rm -rf theme-temp
